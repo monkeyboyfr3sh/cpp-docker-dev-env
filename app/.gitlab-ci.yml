@@ -1,9 +1,0 @@
-image: <your docker registry>:5000/build-env
-
-build:
-  script:
-    - mkdir -p build
-    - cd build
-    - cmake ..
-    - make
-
